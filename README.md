@@ -19,6 +19,7 @@ There are mainly 2 tests.
  test_suite2.py is designed to run sequentially as there are dependent shutdown related scenarios and can finish in 80 seconds
 
  **#1. test_suite1.py : Covers the following 25 testcases**
+ 
     test_get_stats_no_body_verify_response_text
     test_check_empty_data_hash	
     test_ping_application_and_getresponse
@@ -45,6 +46,7 @@ There are mainly 2 tests.
     test_check_post_hash_with_different_key
     
  **#2. test_suite2.py : covers the following 5 testcases**
+ 
     test_is_remaining_password_hashing_allowed_to_complete
     test_simultaneous_post_hash
     test_simultaneous_get_hash
