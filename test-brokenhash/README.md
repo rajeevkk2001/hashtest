@@ -1,4 +1,4 @@
-# Borken hash test suite
+# Broken hash test suite
 
 This is a test suite created for testing the broken has app  using the pytest python module.
 This has the implementations for parallel execution of tests and html report generation 
