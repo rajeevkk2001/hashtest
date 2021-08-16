@@ -18,7 +18,7 @@ There are mainly 2 tests.
  test_suite1.py is designed to execute all tests in parallel and can complete in 30 seconds if we run with 5 threads
  test_suite2.py is designed to run sequentially as there are dependent shutdown related scenarios and can finish in 80 seconds
 
- #1. test_suite1.py : Covers the following 24 testcases
+ #1. test_suite1.py : Covers the following 25 testcases
     test_get_stats_no_body_verify_response_text
     test_check_empty_data_hash	
     test_ping_application_and_getresponse
