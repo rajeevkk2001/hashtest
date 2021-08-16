@@ -15,7 +15,7 @@ This has the implementations for parallel execution of tests and html report gen
 There are mainly 2 tests. 
  1. test_suite1.py 
  2. test_suite2.py
- test_suite1.py is designed to execute all tests in parallel and can complete in 30 seconds if we run with 5 threads
+ test_suite1.py is designed to execute all tests in parallel and can complete 25 tests in 30 seconds if we run with 5 threads
  test_suite2.py is designed to run sequentially as there are dependent shutdown related scenarios and can finish in 80 seconds
 
  #1. test_suite1.py : Covers the following 25 testcases
